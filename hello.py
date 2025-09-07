@@ -4,13 +4,13 @@ def greet(name):
   """
   Thistakes a name as input and returns a hello message.
   """
-  return f"Hello, {name}!"
+  return f"Howdy, {name}!"
 
 if __name__ == "__main__":
   # Call the greet function with a specific name
-  message = greet("Hello world")
+  message = greet("Howdy world")
   print(message)
 
   # Get input from the user and greet them
-  user_name = input("What's your name? ")
+  user_name = input("What's your real name? ")
   print(greet(user_name))
